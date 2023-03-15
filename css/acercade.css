@@ -1,0 +1,69 @@
+* {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* (*) selector universal, todos los elementos de la pagina */
+
+h1 {
+    color: saddlebrown
+}
+
+/*Selector que asigna estilo a etiquetas h1*/
+
+.card {
+    background-color: crimson;
+}
+
+/*Selector tipo clase, para asignar estilo a clase*/
+
+/*Parte de section */
+
+section{
+    width: 70%;
+    background-color: darkslategray;
+    float: left;
+    margin: 10px;
+}
+
+/*Parte article*/
+article{
+    margin: 0.5e 3em 0em 0em;
+    padding: 0.5em 3em;
+    background-color: rgb(42, 165, 42);
+    border: 10px solid black;
+
+} /*margin 4 parametros; top, right, bottom, left
+dos parametros; top-bottom, right-left */
+
+footer{
+    background-color: aquamarine;
+    width: auto;
+    height: 60px;
+    text-align: center;
+    padding: 40px;
+    margin: 10px;
+    clear: both;
+
+}
+
+aside{
+    width: 25%;
+    float: left;
+    background-color: darkgoldenrod;
+
+}
+
+
+/*
+Medidas absolutas: PX
+
+Medidas relativas: em hace referencia a la fuente 
+del navegador,
+rem se adapta ala fuente raíz del html
+
+medidas flexibles:  vw se calcula respecto al ancho del 
+viewport, ej: 100 vw es el 100% de la ventana. 
+vh se calcula respecto a la altura del viewport 
+vmin/vmax se calculan respecto al ancho del viewport
+*/

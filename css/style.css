@@ -1,0 +1,23 @@
+nav{
+    background-color: darkseagreen;
+    width: auto;
+    height: auto;
+    word-spacing: 55px;
+    text-align: center;
+    padding: 25px; 
+    margin: 10px
+}
+
+a{
+    text-decoration: none;
+    color:darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px
+}
+
+a:active{
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 20px
+    
+}

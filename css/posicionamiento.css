@@ -1,0 +1,40 @@
+
+.box{
+    display: inline-table; /*Est configura la ubicación */
+    width: 100px;
+    height: 100px;
+    background: rgb(2, 66, 6);
+    color: white;
+}
+
+/*# es para id de clase*/
+#two{
+    position:absolute; /* esto tmb configura la ubicacion*/
+    top: 20px;
+    left: 20px;
+    background: rgb(126, 209, 136);
+
+}
+
+#three{
+    top: 20px;
+    left: 20px;
+    background: rgba(69, 221, 4, 0.44);
+
+}
+
+#four{
+    top: 20px;
+    left: 20px;
+    background: rgb(52, 50, 51);
+
+}
+
+
+.texto1{
+    width: 600px;
+    height: 400px;
+    overflow:hidden; /*Define el tamaño de ventana y la forma de gestión de contenido más grande. */
+    padding: 150px; 
+
+}
